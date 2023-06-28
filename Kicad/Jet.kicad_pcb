@@ -144,7 +144,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 057c6d97-3cb4-47e7-9171-7b2e4fa1b16a)
-    (at 106.84 78.36 180)
+    (at 107.265 78.74 180)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "Jet.kicad_sch")
@@ -186,7 +186,7 @@
 
   (footprint "Diode_SMD:D_SMA" (layer "F.Cu")
     (tedit 586432E5) (tstamp 2f5467a7-bd49-433c-92f2-60a842e66f7b)
-    (at 108.05 112.2 -90)
+    (at 107.365 112.2 -90)
     (descr "Diode SMA (DO-214AC)")
     (tags "Diode SMA (DO-214AC)")
     (property "Sheetfile" "Jet.kicad_sch")
@@ -235,7 +235,7 @@
 
   (footprint "Diode_SMD:D_MiniMELF" (layer "F.Cu")
     (tedit 5905D8F5) (tstamp 3ceca02b-b6d5-40a4-bce7-285ec687eca7)
-    (at 103.92 83.74 90)
+    (at 101.41 84.22 90)
     (descr "Diode Mini-MELF (SOD-80)")
     (tags "Diode Mini-MELF (SOD-80)")
     (property "Sheetfile" "Jet.kicad_sch")
@@ -378,8 +378,8 @@
       (net 2 "GND") (pinfunction "Pin_19") (pintype "passive") (tstamp 234cb858-568c-425f-a256-a51e6f2aec75))
     (pad "20" thru_hole circle (at 2.54 22.86) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 2 "GND") (pinfunction "Pin_20") (pintype "passive") (tstamp 69a84f7b-28f6-4074-b9b7-aa69daddbc5c))
-    (pad "MP" thru_hole circle (at 1.02 -8.94) (size 8 8) (drill 2.69) (layers *.Cu *.Mask) (tstamp 9188613b-bcee-4567-86b3-54239564683f))
-    (pad "MP" thru_hole circle (at 1.02 31.8) (size 8 8) (drill 2.69) (layers *.Cu *.Mask) (tstamp cbe55adc-6888-492a-87bd-576dd34a64ee))
+    (pad "MP" thru_hole circle (at 1.02 -8.94) (size 3.5 3.5) (drill 2.5) (layers *.Cu *.Mask) (tstamp 9188613b-bcee-4567-86b3-54239564683f))
+    (pad "MP" thru_hole circle (at 1.02 31.8) (size 3.5 3.5) (drill 2.5) (layers *.Cu *.Mask) (tstamp cbe55adc-6888-492a-87bd-576dd34a64ee))
     (model "${KICAD6_3DMODEL_DIR}/Connector_IDC.3dshapes/IDC-Header_2x10-1MP_P2.54mm_Latch_Vertical.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -389,7 +389,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 5082f2b7-30a0-42a8-a0ea-619101e9bd03)
-    (at 104.9 104.37 90)
+    (at 101.854 104.25 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "Jet.kicad_sch")
@@ -431,7 +431,7 @@
 
   (footprint "Package_DIP:DIP-4_W7.62mm" (layer "F.Cu")
     (tedit 5A02E8C5) (tstamp 56f0a67a-a93a-477a-9778-70fe2cfeeb5a)
-    (at 108.125 93.63 -90)
+    (at 107.565 93.482 -90)
     (descr "4-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
     (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
     (property "Sheetfile" "Jet.kicad_sch")
@@ -482,7 +482,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 896b9843-8c59-4df6-91c4-608a322a44b7)
-    (at 107.93 103.49 180)
+    (at 107.265 103.378 180)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "Jet.kicad_sch")
@@ -524,7 +524,7 @@
 
   (footprint "Package_DIP:DIP-4_W7.62mm" (layer "F.Cu")
     (tedit 5A02E8C5) (tstamp a04f8542-6c38-4d5c-bdbb-c8e0311a0936)
-    (at 107.12 68.34 -90)
+    (at 107.565 68.34 -90)
     (descr "4-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
     (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
     (property "Sheetfile" "Jet.kicad_sch")
@@ -675,8 +675,8 @@
       (net 29 "KOLO") (pinfunction "Pin_25") (pintype "passive") (tstamp 937bf952-13df-4518-8fc3-dd3084c373b3))
     (pad "26" thru_hole circle (at 2.54 30.48 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 30 "IN_OBUDOWA") (pinfunction "Pin_26") (pintype "passive") (tstamp e56339e5-0606-49bd-b0e7-49bc65306bf8))
-    (pad "MP" thru_hole circle (at 1.8 -5.905 180) (size 8 8) (drill 2.69) (layers *.Cu *.Mask) (tstamp 8c6a44a8-1d6a-4c7c-894e-194c6ce50381))
-    (pad "MP" thru_hole circle (at 1.8 36.385 180) (size 8 8) (drill 2.69) (layers *.Cu *.Mask) (tstamp ce2ea4aa-b84d-4d10-b31d-df2059fa3c2e))
+    (pad "MP" thru_hole circle (at 1.8 -5.905 180) (size 3.5 3.5) (drill 2.5) (layers *.Cu *.Mask) (tstamp 8c6a44a8-1d6a-4c7c-894e-194c6ce50381))
+    (pad "MP" thru_hole circle (at 1.8 36.385 180) (size 3.5 3.5) (drill 2.5) (layers *.Cu *.Mask) (tstamp ce2ea4aa-b84d-4d10-b31d-df2059fa3c2e))
     (model "${KICAD6_3DMODEL_DIR}/Connector_IDC.3dshapes/IDC-Header_2x13-1MP_P2.54mm_Latch_Horizontal.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -686,7 +686,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23" (layer "F.Cu")
     (tedit 5FA16958) (tstamp b1299430-0d43-44bf-bd6a-eac09d870db6)
-    (at 108.11 106.56 90)
+    (at 107.415 106.426 90)
     (descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "Jet.kicad_sch")
@@ -782,7 +782,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23" (layer "F.Cu")
     (tedit 5FA16958) (tstamp bf3efcef-5692-4912-bc43-222716f9654b)
-    (at 106.99 81.53 90)
+    (at 107.415 82.296 90)
     (descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "Jet.kicad_sch")
@@ -922,8 +922,8 @@
       (net 7 "VCC") (pinfunction "Pin_19") (pintype "passive") (tstamp 9697b51f-a2b2-45cc-89c3-5585cd32618c))
     (pad "20" thru_hole circle (at 2.54 22.86) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 2 "GND") (pinfunction "Pin_20") (pintype "passive") (tstamp 2bce5dca-02ba-4cc6-96fa-4bae967a934e))
-    (pad "MP" thru_hole circle (at 1.02 -8.94) (size 8 8) (drill 2.69) (layers *.Cu *.Mask) (tstamp 0eb438a9-ada7-4bed-8b55-0d81750fd9ff))
-    (pad "MP" thru_hole circle (at 1.02 31.8) (size 8 8) (drill 2.69) (layers *.Cu *.Mask) (tstamp f9281a4c-1c11-433c-a46a-83f593b92d2b))
+    (pad "MP" thru_hole circle (at 1.02 -8.94) (size 3.5 3.5) (drill 2.5) (layers *.Cu *.Mask) (tstamp 0eb438a9-ada7-4bed-8b55-0d81750fd9ff))
+    (pad "MP" thru_hole circle (at 1.02 31.8) (size 3.5 3.5) (drill 2.5) (layers *.Cu *.Mask) (tstamp f9281a4c-1c11-433c-a46a-83f593b92d2b))
     (model "${KICAD6_3DMODEL_DIR}/Connector_IDC.3dshapes/IDC-Header_2x10-1MP_P2.54mm_Latch_Vertical.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -933,22 +933,22 @@
 
   (footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 5A19A420) (tstamp d3e4ea4f-e51c-45f4-8f0e-a294e95ffa49)
-    (at 101.51 114.725 90)
+    (at 101.475 69.08)
     (descr "Through hole straight socket strip, 1x02, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x02 2.54mm single row")
     (property "Sheetfile" "Jet.kicad_sch")
     (property "Sheetname" "")
     (path "/29ce79ee-3393-41fe-80e0-f804c9b391ed")
     (attr through_hole)
-    (fp_text reference "J3" (at 0 -2.77 90) (layer "F.SilkS")
+    (fp_text reference "J3" (at 0 -2.77) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f954493f-31a4-4c82-a5b6-4dbe39002c06)
     )
-    (fp_text value "POWER" (at 0 5.31 90) (layer "F.Fab")
+    (fp_text value "POWER" (at 0 5.31) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp cda32e56-5504-4532-8d34-a6c27df9a4b4)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.27) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.27 90) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3b639d5b-5b2b-48f3-a1c1-e26227c92a17)
     )
@@ -967,9 +967,9 @@
     (fp_line (start -1.27 -1.27) (end 0.635 -1.27) (layer "F.Fab") (width 0.1) (tstamp 94411718-e83f-4ca6-ab66-879aa499256c))
     (fp_line (start 1.27 3.81) (end -1.27 3.81) (layer "F.Fab") (width 0.1) (tstamp 980ca874-17f3-4e77-a79d-aafa4594d3b4))
     (fp_line (start -1.27 3.81) (end -1.27 -1.27) (layer "F.Fab") (width 0.1) (tstamp f876b65e-e9b9-4617-ab5a-b6c502115159))
-    (pad "1" thru_hole rect (at 0 0 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad "1" thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 7 "VCC") (pinfunction "Pin_1") (pintype "passive") (tstamp 50d9dbff-4aec-4f88-9cce-560c958faa51))
-    (pad "2" thru_hole oval (at 0 2.54 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad "2" thru_hole oval (at 0 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 2 "GND") (pinfunction "Pin_2") (pintype "passive") (tstamp 8eef9d47-443a-4a8c-94bd-ad5d6b8994f9))
     (model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x02_P2.54mm_Vertical.wrl"
       (offset (xyz 0 0 0))
@@ -980,7 +980,7 @@
 
   (footprint "Diode_SMD:D_MiniMELF" (layer "F.Cu")
     (tedit 5905D8F5) (tstamp f2f2f21b-e130-4738-9490-06e9e2a1ad0c)
-    (at 105.04 109.12 -90)
+    (at 102.004 109.55 -90)
     (descr "Diode Mini-MELF (SOD-80)")
     (tags "Diode Mini-MELF (SOD-80)")
     (property "Sheetfile" "Jet.kicad_sch")
@@ -1030,7 +1030,7 @@
 
   (footprint "Diode_SMD:D_SMA" (layer "F.Cu")
     (tedit 586432E5) (tstamp fc13962a-a464-4fa2-b9a6-4c26667104ee)
-    (at 106.97 87.23 -90)
+    (at 107.35 88.49 -90)
     (descr "Diode SMA (DO-214AC)")
     (tags "Diode SMA (DO-214AC)")
     (property "Sheetfile" "Jet.kicad_sch")
@@ -1079,7 +1079,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp ff4df987-8ba1-4f2d-9128-9a7f66d1fa2d)
-    (at 103.76 79.02 -90)
+    (at 101.06 76.95 -90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "Jet.kicad_sch")
@@ -1118,5 +1118,7 @@
       (rotate (xyz 0 0 0))
     )
   )
+
+  (gr_rect (start 91.694 62.738) (end 131.826 116.84) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp e4c57921-594a-42a6-a67b-3af6e5adf5f0))
 
 )
